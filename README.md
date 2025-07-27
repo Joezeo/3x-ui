@@ -25,6 +25,10 @@ As an enhanced fork of the original X-UI project, 3X-UI provides improved stabil
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
+Turn on BBR:
+```base
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
 
 For full documentation, please visit the [project Wiki](https://github.com/MHSanaei/3x-ui/wiki).
 
